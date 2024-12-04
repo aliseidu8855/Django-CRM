@@ -11,8 +11,7 @@ https://docs.djangoproject.com/en/5.1/ref/settings/
 """
 
 from pathlib import Path
-from . import mydb
-import dj_database_url
+from mydb import mydb
 import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
@@ -77,9 +76,7 @@ WSGI_APPLICATION = 'dcrm.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/5.1/ref/settings/#databases
 
-DATABASES ={
-    "default": dj_database_url.parse(os.environ.get("postgresql://aliseidu:aCDqqCwR1wKLAajVHAK7y2asg0sWbAqK@dpg-ct7t15e8ii6s73c97e10-a.oregon-postgres.render.com/mydb_7iyk"))
-}
+DATABASES = mydb
 
 # Password validation
 # https://docs.djangoproject.com/en/5.1/ref/settings/#auth-password-validators
