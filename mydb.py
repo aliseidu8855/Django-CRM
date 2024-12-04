@@ -1,10 +1,10 @@
-mydb ={
+mydb = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
         'NAME': 'mydb_7iyk',
         'USER': 'aliseidu',
         'PASSWORD': 'aCDqqCwR1wKLAajVHAK7y2asg0sWbAqK',
-        'HOST': 'dpg-ct7t15e8ii6s73c97e10-a',
+        'HOST': 'dpg-ct7t15e8ii6s73c97e10-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
