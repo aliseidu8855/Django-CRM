@@ -1,10 +1,10 @@
 mydb = {
     'default': {
         'ENGINE': 'django.db.backends.postgresql',
-        'NAME': 'mydb_7iyk',
+        'NAME': 'mydb_7iyk_4drd',
         'USER': 'aliseidu',
-        'PASSWORD': 'aCDqqCwR1wKLAajVHAK7y2asg0sWbAqK',
-        'HOST': 'dpg-ct7t15e8ii6s73c97e10-a.oregon-postgres.render.com',
+        'PASSWORD': 'bsYEHwYpRjv9eusJy5DQpb4AOBwfxXBU',
+        'HOST': 'dpg-cum84nt6l47c7396bgdg-a.oregon-postgres.render.com',
         'PORT': '5432',
     }
 }
